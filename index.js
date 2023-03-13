@@ -6,4 +6,4 @@ function supprimer(){
 }
 function calcul(){
     document.getElementById("value").value = eval(document.getElementById("value").value);
-}
+} 
