@@ -11,7 +11,7 @@
     
     <form name="calc" class="calculatrice">
         <input type= "text" id="value" name="txt" readonly="">
-        <span class="num effacer" onclick="baseCalculator().supprimer()"> Effacer</span>
+        <span class="num effacer" onclick="baseCalculator.supprimer()"> Effacer</span>
         <span class="num" onclick="baseCalculator.affichage('.')">.</span>
         <span class="num" onclick="baseCalculator.affichage('/')">/</span>
         <span class="num" onclick="baseCalculator.affichage('*')">x</span>
@@ -22,10 +22,11 @@
         <span class="num" onclick="baseCalculator.affichage('4')">4</span>
         <span class="num" onclick="baseCalculator.affichage('5')">5</span>
         <span class="num" onclick="baseCalculator.affichage('6')">6</span>
-        <span class="num plus" onclick="baseCalculator.affichage('+')">+</span>
+        <span class="num" onclick="baseCalculator.affichage('+')">+</span>
         <span class="num" onclick="baseCalculator.affichage('3')">3</span>
         <span class="num" onclick="baseCalculator.affichage('2')">2</span>
         <span class="num" onclick="baseCalculator.affichage('1')">1</span>
+        <span class="num" onclick="baseCalculator.back()">R</span>
         <span class="num" onclick="baseCalculator.affichage('0')">0</span>
         <span class="num" onclick="baseCalculator.affichage('(')">(</span>
         <span class="num" onclick="baseCalculator.affichage(')')">)</span>
