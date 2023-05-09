@@ -47,11 +47,7 @@ body{
     width: 100%;
     background-color: #FF5126;
 }
-.calculatrice span.plus{
-    grid-row: span 2;
-    height: 100%;
 
-}
 .calculatrice span.egale{
     background-color: #62CDFF;
 }
